@@ -1,6 +1,6 @@
 Name:           perl-IO-String
 Version:        1.08
-Release:        18%{?dist}
+Release:        19%{?dist}
 Summary:        Emulate file interface for in-core strings
 Group:          Development/Libraries
 License:        GPL+ or Artistic
@@ -54,6 +54,9 @@ make test
 
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.08-19
+- Mass rebuild 2013-12-27
+
 * Thu Nov 15 2012 Petr Šabata <contyk@redhat.com> - 1.08-18
 - Modernize the spec a bit
 - Drop command macros
